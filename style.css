@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Rubik+Doodle+Shadow&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.introducion {
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    padding: 200px 10px 10px;
+}
+
+.introducion .button {
+    background-color: #6c53be;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    border-radius: 20px;
+    transition: background-color 0.3;
+}
+
+.introduction .button:hover {
+    background-color: #3a149a;
+}
+
+.programming-icons {
+    background-image: url('logo-javascript.svg');
+    width: 90px;
+    height: 90px;
+    border-radius: 20px;
+}
+
+.background-image1 {
+    background-image: url('fundo.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    padding-bottom: 200px;
+}
+
+.background-2 {
+    background-color: #d5b0ff;
+    margin: -22px auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+
+.white-box {
+    display: flex;
+    background-color: white;
+    border-radius: 20px;
+    align-items: center;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    align-content: flex-end;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.me {
+    text-align: left;
+    font-family: 'Outfit';
+    font-size: 25px;
+    width: 600px;
+    margin-left: 40px;
+    padding-top: 20px;
+}
